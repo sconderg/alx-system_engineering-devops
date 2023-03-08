@@ -1,2 +1,2 @@
-!/bin/bash
+#!/bin/bash
 echo -n "./, ../,"; ls -1AF | grep -v -E '^[./]\.?$' | sed 's/$/,/' | tr -d '\n'; echo ""
