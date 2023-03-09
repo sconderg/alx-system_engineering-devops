@@ -1,0 +1,1 @@
+this is shell perms project directory
